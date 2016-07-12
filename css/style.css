@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+	position: relative;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.gameHeader {
+	border-bottom: 1px solid grey;
+	margin: 5% auto;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 1.9em;
+	text-align: center;
+	margin-right: 10%;
+}
+
+span {
+	color: #A61B02;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+.gameArea {
+	margin: auto;
+	text-align: center;
+}
+
+#canvas
+{
+	border: 2px solid pink;
+}
