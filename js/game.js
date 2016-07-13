@@ -26,12 +26,13 @@
     bomber1Y = 1,
     bomber2X = 23,
     bomber2Y = 13;
+    bombs = [];
 
   function loadImg() {
 
     // Images to be loaded and used.
     // Tutorial Note: As water is loaded first it will be represented by a 0 on the map and land will be a 1.
-    var imagesArray = ["./images/sand.png", "./images/metalwall.png", "./images/bomber1.png", "./images/bomber2.png"],
+    var imagesArray = ["./images/sand.png", "./images/metalwall.png", "./images/bomber1.png", "./images/bomber2.png", ".imaages/bomb.png"],
       totalImgsLoaded = 0;
 
     for (var i = 0; i < imagesArray.length; i++) {
@@ -166,10 +167,15 @@
           if (checkCollision() === true) {
             bomber2Y--;
           }
+          break;
+        case 70: //p1 place bomber1X
+
+          break;
       }
       //console.log(bomber1X, bomber1Y);
       drawMap();
     });
+
 
 
   }
