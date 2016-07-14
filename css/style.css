@@ -2,6 +2,8 @@
 
 body {
 	position: relative;
+	background-image: url("/images/bg.jpg");
+	background-size: cover;
 }
 .container {
 	width: 960px;
@@ -10,7 +12,7 @@ body {
 
 .gameHeader {
 	border-bottom: 1px solid grey;
-	margin: 5% auto;
+	margin: 3% auto;
 }
 
 h1 {
@@ -29,6 +31,21 @@ span {
 .gameArea {
 	margin: auto;
 	text-align: center;
+}
+
+.p1Column, .p2Column {
+	margin-bottom: 5%;
+	font-size: 1.1em;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.p1Column {
+	float: left;
+}
+
+.p2Column {
+	float: right;
 }
 
 #canvas

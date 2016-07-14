@@ -9,15 +9,23 @@
   <body>
     <div class="container">
       <div class="gameHeader">
-        <h1>Bombers<br><span>Clash</span></h1>
+        <h1>Pokemon<br><span>Clash</span></h1>
       </div>
       <div class="gameArea">
+        <div class="p1Column">
+          <h4>Player 1</h4><br>
+          <h4 id="p1Score">READY?</h4>
+        </div>
+        <div class="p2Column">
+          <h4>Player 2</h4><br>
+          <h4 id="p2Score">GO!</h4>
+        </div>
         <canvas id="canvas" width="800" height="480"></canvas>
       </div>
     </div>
-    
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" charset="utf-8"></script>
-    <script src="js/gameOOP.js"></script>
+    <script src="js/gameEngine.js"></script>
 
   </body>
 </html>
