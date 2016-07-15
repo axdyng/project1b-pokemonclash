@@ -17,4 +17,4 @@ http://www.cokeandcode.com/main/tutorials/tile-maps/
 http://downloads.khinsider.com/game-soundtracks/album/pokemon-original-game-soundtrack (Soundtracks)
 
 ##Special thanks to
-Kai Lin, Prima, Zheng Jie for their inputs and patience!
+Kai Lin, Prima, Zheng Jie, Angeline and Junius for their inputs and patience!
